@@ -1,8 +1,10 @@
 # STD++: A Semantic-based Arbitrarily-Oriented Scene Text Detector
 
-This repository is the official implementation of `A Semantic-based Arbitrarily-Oriented Scene Text Detector`(named STD++ as it is the improved version of [STD](https://github.com/opconty/keras_std)).due to lack of computing resources and time, we only tested STD++ on icdar2017rctw dataset, and we hope to perform more experiments on benchmark datasets, such as IC15,IC17,COCO-Text,MSRA-TD500,mtwi and so on.
+This repository is the official implementation of `A Semantic-based Arbitrarily-Oriented Scene Text Detector`(named STD++ as it is the improved version of [STD](https://github.com/opconty/keras_std)).due to lack of computing resources and time, we tested STD++ on MTWI2018 dataset, and we hope to perform more experiments on any other benchmark datasets, such as IC15,IC17,COCO-Text,MSRA-TD500 and so on.
 
 ![bigpic](./examples/biiiig.png)
+
+*images come from icdar2017rctw*
 
 ## Introduction
 
@@ -29,7 +31,7 @@ Download RCTW17 dataset below, and configure your local directory path. refer to
 
 ## Dataset
 
-We only trained STD++ on [ICDAR2017RCTW](https://arxiv.org/abs/1708.09585) dataset, training and testing images can be downloaded from [official site](http://rctw.vlrlab.net/dataset/) for Task1 Text Localization, and we make STD++ annotations available on [baiduyun, code: nuti](https://pan.baidu.com/s/16HgPa5Xy0I7vv4j8tGSmjQ).
+We trained STD++ on MTWI2018 dataset, training and testing images can be downloaded from [this site](https://tianchi.aliyun.com/competition/entrance/231685/information) for Text Localization, and we make STD++ annotations available on [baiduyun, code: nuti](https://pan.baidu.com/s/16HgPa5Xy0I7vv4j8tGSmjQ).
 
 ## License
 
